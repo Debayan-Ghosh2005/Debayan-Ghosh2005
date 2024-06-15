@@ -13,6 +13,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=debayan-ghosh2005&theme=blue-green&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=debayan-ghosh2005&theme=blue-green&hide_border=false)<br/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Debayan-Ghosh2005&theme=radical"><br/><br>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=debayan-ghosh2005&theme=blue-green&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
