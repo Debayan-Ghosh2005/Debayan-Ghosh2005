@@ -4,9 +4,13 @@
    <img align="right" alt="coding_img" width="200" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif">
  </div>
 
+<div align="center">
+  
 #  💫 About Me:-
 🔭 Currently, I'm immersed in my studies as a student, delving deep into the fascinating world of computer science and AI/ML.<br><br>👯 I'm eager to collaborate on open-source projects or internships where I can apply my knowledge and contribute to meaningful initiatives alongside talented individuals.<br><br>🤝 While I'm confident in my skills, I'm always open to learning and seeking guidance from experienced professionals to further enhance my understanding and expertise.<br><br>🌱 Currently, I'm sharpening my skills in various programming languages and exploring new technologies to stay ahead in this ever-evolving field.<br><br>💬 Feel free to reach out to me about anything related to computer science, AI, machine learning, or even if you just want to chat about the latest tech trends!<br><br>- 📫 How to reach me **2005debayan@gmail.com**<br><br>⚡ Fun fact: While computers understand only the language of 0s and 1s, known as binary code, humans, with our remarkable ability to interpret complex concepts, can grasp the intricacies of coding languages and algorithms. Despite this fundamental difference, computers excel in processing vast amounts of data with unparalleled speed and accuracy. It's a testament to the remarkable synergy between human ingenuity and machine efficiency that powers the technological marvels of our modern world!<br><br>
+</div>
 
+<div align="center">
 
 # 🌐 Socials:-
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/debayan_myself)
@@ -15,7 +19,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/myself-debayan-ghosh)
 [![Spotify](https://img.shields.io/badge/Spotify-%231ED760.svg?logo=spotify&logoColor=white&style=flat)](https://open.spotify.com/user/31lu3wnaoh5nvfcgavehah44bsay?si=mWCiHXvqRgqWFkn9n0LMvg)
 
-
+</div>
 <h1 align="left">💻 Tech Stack :<img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"></h1>
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)<!-- JavaScript -->
