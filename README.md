@@ -20,11 +20,17 @@
 [![Spotify](https://img.shields.io/badge/Spotify-%231ED760.svg?logo=spotify&logoColor=white&style=flat)](https://open.spotify.com/user/31lu3wnaoh5nvfcgavehah44bsay?si=mWCiHXvqRgqWFkn9n0LMvg)
 
 </div>
-<h1 align="left">💻 Tech Stack :<img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"></h1>
+
+<div align="center">
+  
+<h1 align="center">💻 Tech Stack :<img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"></h1>
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)<!-- JavaScript -->
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript logo">
+</div>
 
+<div align="center">
+  
 #  📊 GitHub Stats:-
 ![](https://github-readme-stats.vercel.app/api?username=debayan-ghosh2005&theme=blue-green&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=debayan-ghosh2005&theme=blue-green&hide_border=false)<br/>
@@ -34,16 +40,26 @@
 <p align="center">
   <img width="830" src="https://github-readme-activity-graph.vercel.app/graph?username=Debayan-Ghosh2005&bg_color=21232a&color=a8eeff&line=61dafb&point=f0fcff&area=true&hide_border=false" />
 </p>
+</div>
 
+<div align="center">
+  
 #  🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=debayan-ghosh2005&theme=dracula&no-frame=false&no-bg=false&margin-w=4)
 
+</div>
+
+<div align="center">
+  
 # ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
+</div>
 
+<div align="center">
+  
 # 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=debayan-ghosh2005&limit=5&theme=matrix&combine_all_yearly_contributions=true)
-
+</div>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=debayan-ghosh2005&icon=5&color=4)](https://visitcount.itsvg.in)
