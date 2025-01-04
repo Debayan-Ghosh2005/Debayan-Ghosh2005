@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=141190&random=false&width=471&lines=HI%F0%9F%91%8B%2C+I+Am+Debayan+Ghosh+%F0%9F%98%8E;Follow+ME++GUY'S" alt="Typing SVG" /></a>
   <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
-   <img align="right" alt="coding_img" width="450" src="https://github.com/soumyajit4419/soumyajit4419/blob/master/thoughtworks-gif_dribbble.gif?raw=true">
+   <img align="right" alt="coding_img" width="200" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif">
  </div>
 
 <div align="center">
