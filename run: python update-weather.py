@@ -1,0 +1,75 @@
+name: "Refresh Weather"
+on:
+  schedule:
+    - cron: '30 * * * *'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
+      environment:
+        description: 'Environment to run tests against'
+        type: environment
+        required: true
+
+
+jobs:
+  update-weather:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate README
+        uses: huantt/weather-forecast@v1.0.6
+        with:
+          city: Kolkata
+          days: 3
+          weather-api-key: ${{ secrets.WEATHER_API_KEY }}
+          template-file: 'README.md.template'
+          out-file: 'README.md'
+          
+      - name: Install jq
+        run: sudo apt-get install jq
+        
+      # Fetch data from your API
+      - name: Fetch API data
+        run: |
+          curl -X GET https://naas.isalman.dev/no -o api_response.json
+          
+      # Extract reason from the API response and update README
+      - name: Update README with API reason
+        run: |
+          REASON=$(jq -r '.reason' api_response.json)
+          echo $REASON
+          sed -i "s/\[funny_no_statement\]/$REASON/g" README.md
+          
+      - name: Get current year
+        id: current_year
+        run: echo "year=$(date +'%Y')" >> $GITHUB_ENV
+
+      - name: Update README with current year
+        run: |
+          sed -i "s/\[current_year_placeholder\]/${{ env.year }}/g" README.md
+          
+      - name: Commit
+        run: |
+            if git diff --exit-code; then
+              echo "No changes to commit."
+              exit 0
+            else
+              git config user.name arnabnandy7
+              git config user.email arnab_nandy7@yahoo.com
+              git add .
+              git commit -m "update"
+              git push origin main
+            fi
