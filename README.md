@@ -33,6 +33,13 @@
 [![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/31lu3wnaoh5nvfcgavehah44bsay?si=mWCiHXvqRgqWFkn9n0LMvg)
 
 ---
+## 😂 Jokes Card
+
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
+</p>
+
+---
 
 ## 🧠 Tech Stack
 
