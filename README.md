@@ -112,5 +112,4 @@
 
 ## 👀 Visitor Count
 
-[![](https://visitcount.itsvg.in/api?id=debayan-ghosh2005&icon=5&color=6)](https://visitcount.itsvg.in)
-
+![Visitor Count](https://profile-counter.glitch.me/debayan-ghosh2005/count.svg)
