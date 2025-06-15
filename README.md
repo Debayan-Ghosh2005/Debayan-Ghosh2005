@@ -64,5 +64,5 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=debayan-ghosh2005&icon=5&color=4)](https://visitcount.itsvg.in)
 <!-- WEATHER-START -->
-(placeholder text or nothing)
+![icon](https://cdn.weatherapi.com/weather/64x64/night/143.png) **Kolkata**: 29.4°C, Mist
 <!-- WEATHER-END -->
