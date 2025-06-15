@@ -2,7 +2,8 @@
   
 # 👋 Hi, I'm Debayan Ghosh 😎  
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4BB543&center=true&vCenter=true&multiline=true&width=435&lines=Aspiring+AI%2FML+Engineer;Open+Source+Contributor;Tech+Lover+%F0%9F%9B%A0%EF%B8%8F+|+Lifelong+Learner" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4BB543&center=true&vCenter=true&width=600&lines=Aspiring+AI%2FML+Engineer;Open+Source+Contributor;MCKVIE+2027+CSE-AIML+Student;IIT+Madras+BSc+Data+Science+Learner&repeat=true&cursor=true" alt="Typing SVG" />
+
 </a>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%" />
