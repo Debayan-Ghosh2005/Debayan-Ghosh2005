@@ -110,11 +110,15 @@
 
 ---
 
-## 🌦️ Weather (Live)
+## 🌤️ Kolkata Weather Report (Live)
 
 <!-- WEATHER-START -->
-![icon](https://cdn.weatherapi.com/weather/64x64/day/143.png) **Kolkata**: 34.2°C, Mist
+🌡️ **Temperature**: 34.2°C  
+🌫️ **Condition**: Mist  
+![icon](https://cdn.weatherapi.com/weather/64x64/day/143.png)
 <!-- WEATHER-END -->
+
+⏳ *Auto-updated twice daily using GitHub Actions & [WeatherAPI](https://www.weatherapi.com/)*
 
 ---
 

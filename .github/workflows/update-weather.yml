@@ -2,16 +2,17 @@ name: Refresh Weather
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # runs every day at 08:00 UTC
-    - cron: '0 20 * * *'  # runs every day at 20:00 UTC
+    - cron: '0 2 * * *'     # 7:30 AM IST
+    - cron: '0 14 * * *'    # 7:30 PM IST
   workflow_dispatch:
 
 jobs:
   update-weather:
     runs-on: ubuntu-latest
     permissions: write-all
+
     steps:
-      - name: Checkout
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
       - name: Install jq
@@ -29,9 +30,8 @@ jobs:
           condition=$(echo $response | jq -r '.current.condition.text')
           icon=$(echo $response | jq -r '.current.condition.icon')
 
-          weather_block="![icon](https:${icon}) **${CITY}**: ${temp_c}°C, ${condition}"
+          weather_block="![icon](https:${icon}) **${CITY}**: ${temp_c}°C, ${condition} (Updated: $(date -u '+%Y-%m-%d %H:%M UTC'))"
 
-          # Update README.md
           sed -i "/<!-- WEATHER-START -->/,/<!-- WEATHER-END -->/c\\<!-- WEATHER-START -->\n${weather_block}\n<!-- WEATHER-END -->" README.md
 
       - name: Commit Changes
@@ -40,8 +40,8 @@ jobs:
             echo "No changes to commit."
             exit 0
           else
-            git config user.name "GitHub Actions"
-            git config user.email "actions@github.com"
+            git config user.name "Debayan Ghosh"
+            git config user.email "2005debayan@gmail.com"
             git add README.md
             git commit -m "🔄 Auto-update weather"
             git push
