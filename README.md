@@ -113,7 +113,7 @@
 ## 🌦️ Weather (Live)
 
 <!-- WEATHER-START -->
-![icon](https://cdn.weatherapi.com/weather/64x64/night/143.png) **Kolkata**: 28.4°C, Mist
+![icon](https://cdn.weatherapi.com/weather/64x64/day/143.png) **Kolkata**: 34.2°C, Mist
 <!-- WEATHER-END -->
 
 ---
