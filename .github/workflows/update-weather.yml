@@ -2,8 +2,8 @@ name: Refresh Weather
 
 on:
   schedule:
-    - cron: '30 2 * * *'   # 8:00 AM IST
-    - cron: '30 14 * * *'  # 8:00 PM IST
+    - cron: '0 8 * * *'   # runs every day at 08:00 UTC
+    - cron: '0 20 * * *'  # runs every day at 20:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -45,50 +45,4 @@ jobs:
             git add README.md
             git commit -m "🔄 Auto-update weather"
             git push
-name: Refresh Weather
-
-on:
-  schedule:
-    - cron: '30 2 * * *'   # 8:00 AM IST
-    - cron: '30 14 * * *'  # 8:00 PM IST
-  workflow_dispatch:
-
-jobs:
-  update-weather:
-    runs-on: ubuntu-latest
-    permissions: write-all
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Get Weather and Update README
-        env:
-          API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        run: |
-          CITY="Kolkata"
-          URL="http://api.weatherapi.com/v1/current.json?key=$API_KEY&q=$CITY&aqi=no"
-
-          response=$(curl -s "$URL")
-          temp_c=$(echo $response | jq -r '.current.temp_c')
-          condition=$(echo $response | jq -r '.current.condition.text')
-          icon=$(echo $response | jq -r '.current.condition.icon')
-
-          weather_block="![icon](https:${icon}) **${CITY}**: ${temp_c}°C, ${condition}"
-
-          # Update README.md
-          sed -i "/<!-- WEATHER-START -->/,/<!-- WEATHER-END -->/c\\<!-- WEATHER-START -->\n${weather_block}\n<!-- WEATHER-END -->" README.md
-
-      - name: Commit Changes
-        run: |
-          if git diff --exit-code; then
-            echo "No changes to commit."
-            exit 0
-          else
-            git config user.name "GitHub Actions"
-            git config user.email "actions@github.com"
-            git add README.md
-            git commit -m "🔄 Auto-update weather"
-            git push
+          fi
