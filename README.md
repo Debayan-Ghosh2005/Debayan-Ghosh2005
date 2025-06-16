@@ -117,7 +117,6 @@
 ![icon](https://cdn.weatherapi.com/weather/64x64/day/143.png)
 <!-- WEATHER-END -->
 
-⏳ *Auto-updated twice daily using GitHub Actions & [WeatherAPI](https://www.weatherapi.com/)*
 
 ---
 
