@@ -120,4 +120,5 @@
 
 ## 👀 Visitor Count
 
-![Visitor Count](https://profile-counter.glitch.me/debayan-ghosh2005/count.svg)
+![Visitor Count](https://komarev.com/ghpvc/?username=debayan-ghosh2005&color=blue&style=flat-square)
+
