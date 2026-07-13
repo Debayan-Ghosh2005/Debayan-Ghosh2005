@@ -112,7 +112,7 @@
 ## 🌤️ Kolkata Weather Report (Live)
 
 <!-- WEATHER-START -->
-![icon](https://cdn.weatherapi.com/weather/64x64/day/143.png) **Kolkata**: 32.4°C, Mist (Updated: 2026-07-13 05:39 UTC)
+![icon](https://cdn.weatherapi.com/weather/64x64/night/296.png) **Kolkata**: 27.0°C, Light rain (Updated: 2026-07-13 16:28 UTC)
 <!-- WEATHER-END -->
 
 
